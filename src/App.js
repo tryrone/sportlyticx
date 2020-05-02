@@ -1,24 +1,19 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import NavigationBar from "./components/NavigationBar";
+import SideBar from "./components/SideBar";
+import Main from "./components/main/Main";
+import "./App.css";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      {/* <section style={{ position: "fixed", width: "100%" }}>
+      </section> */}
+      <NavigationBar />
+      <section className="bottom">
+        <SideBar className="Sside" />
+        <Main className="Bside" />
+      </section>
     </div>
   );
 }

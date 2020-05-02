@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
+img {
+  width: "100%";
+}
+.logo {
+  width: 192px;
+  height: 70;
+  align-self: center;
+}
+
+.nav {
+  height: 70px;
+  padding-left: 20px;
+  /* overflow: hidden; */
+  /* position: fixed;
+  width: 100%; */
+
+  padding-right: 20px;
+  background-color: white;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+}
+.search {
+  height: 15px;
+  width: 15px;
+  align-self: center;
+}
+div.searchBar {
+  display: flex;
+  flex-direction: row;
+  padding-left: 15px;
+  justify-content: flex-start;
+  background-color: #f5f6fa;
+  height: 38px;
+  /* margin-left: 77px; */
+  border-radius: 19px;
+  border: 1px solid #d5d5d5;
+  /* width: 370px; */
+  width: 30%;
+}
+.sr {
+  height: 36px;
+  font-family: "Poppins", sans-serif;
+  border-width: 0px;
+  border-radius: 19px;
+  background-color: #f5f6fa;
+  border-color: none;
+  margin-left: 12.86px;
+  width: 90%;
+}
+
+input.sr:focus {
+  outline: none;
+}
+
+.lamp {
+  height: 44px;
+  width: 44px;
+  align-self: center;
+}
+.navRight {
+  display: flex;
+  flex-direction: row;
+}
+.det {
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px;
+}
+.Bname {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  margin: 0;
+  font-size: 14px;
+}
+.Sname {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  margin: 0;
+  font-size: 12px;
+}
+.down {
+  height: 18px;
+  width: 18px;
+  align-self: center;
+  cursor: pointer;
+  margin-left: 15px;
+}
